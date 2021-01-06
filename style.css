@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;0,700;1,700&family=Roboto:wght@700;900&display=swap');
+body { 
+  background-color: #FAF7EF;
+  color: #242198;
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
+
+}
+
+a {
+  color: #e28566;
+}
+
+.btn-link {
+  background: #e28566;
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 72px;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  background: linear-gradient(to right, #e28566, #F0C15D);
+}
+
+.profile-picture {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  margin: 30px auto;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 40px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
