@@ -81,7 +81,7 @@ a {
 }
 
 .top-card {
-  height: 80vh;
+  /* height: 80vh; */
   margin-top: 3.5rem;
 }
 
@@ -126,4 +126,5 @@ a {
   .container {
     width: 95%;
   }
+
 }
