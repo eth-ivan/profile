@@ -7,8 +7,8 @@ body {
   font-family:'Courier New', Courier, monospace;
 }
 
-h1, h2 {
-  font-family: 'Poppins', sans-serif;
+h1, h5 {
+  font-family: "poppins-bold", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -17,9 +17,9 @@ h1 {
   font-size: 3rem;
 }
 
-h2 {
-  font-weight: 600;
-
+h5 {
+  font-size: 2.5rem;
+  letter-spacing: .3rem;
 }
 
 a {
