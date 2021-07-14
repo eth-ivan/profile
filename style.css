@@ -33,6 +33,19 @@ a {
   color: #e28566;
 }
 
+#more-button {
+  margin-top: 8rem;
+}
+
+#more-button > a {
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #cc005f;
+
+}
+
 .btn-link {
   background: #e28566;
   color: white;
@@ -85,10 +98,6 @@ a {
 
 .sub-metier::after {
   content: "|";
-}
-
-.social {
-  margin: 2rem;
 }
 
 .list-inline {
